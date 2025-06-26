@@ -2,7 +2,7 @@
 
 Monitor de recursos del sistema para Linux, minimalista  por consola.
 
-![Captura](banner.webp)
+![captura](banner.webp)
 
 ---
 
