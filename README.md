@@ -1,8 +1,15 @@
 # Mini-top
 
+[python-badge-lg]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge
+[python-web]: https://www.python.org/
+[![python-badge-lg]][python-web]
+
 Monitor de recursos del sistema para Linux, minimalista  por consola.
 
 ![captura](banner.webp)
+
+laptop and server running
+![captura2](banner_miniatura.webp)
 
 ---
 
