@@ -1,27 +1,41 @@
 # Mini-top
 
-[python-badge-lg]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge
-[python-web]: https://www.python.org/
 [![python-badge-lg]][python-web]
 
-Monitor de recursos del sistema para Linux, minimalista  por consola.
+[python-badge-lg]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge
+[python-web]: https://www.python.org/
+
+Monitor de recursos del sistema para Linux, minimalista y por consola.
 
 ![captura](banner.webp)
 
-laptop and server running
+lptop and server running
 ![captura2](banner_miniatura.webp)
 
 ---
 
-## Que hace?
-- Teda info del uso de la  CPU y RAM en tiempo real
+## Qué hace?
+
+- Muestra en tiempo real:
+  - Uso de CPU
+  - Uso de RAM
+
+ para servidores,laptops o terminales ligeras.
+
+---
+
+##  instalacion rapida rápida (Ubuntu / Debian)
 
 
-## Testing
-- Debian 12
-- Ubuntu 22
 
-## Uso
+repositorio apt:
+
 ```bash
-python app.py
+echo "deb [trusted=yes] https://jahirwh.github.io/mini-top/apt/ ./" | sudo tee /etc/apt/sources.list.d/mini-top.list
+sudo apt update
+sudo apt install mini-top
+
 ```
+# Para ejecutar el programa en el terminal escribe:
+
+- mini-top
