@@ -1,0 +1,9 @@
+
+Package: mini-top
+Version: 1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: ahir <uagdahse@anonaddy.me>
+Description: Mini monitor de sistema
+ Monitor ligero de uso de CPU, RAM y procesos desde terminal.
