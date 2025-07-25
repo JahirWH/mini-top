@@ -1,4 +1,4 @@
-# Mini-top
+# mini-top
 
 [![python-badge-lg]][python-web]
 
@@ -36,6 +36,13 @@ sudo apt update
 sudo apt install mini-top
 
 ```
-# Para ejecutar el programa en el terminal escribe:
+## Para ejecutar el programa en el terminal escribe:
 
 - mini-top
+
+## Ojo 
+ - Despues de instalar el programa borra el apt list asi 
+ ```bash
+
+ sudo rm /etc/apt/sources.list.d/mini-top.list
+```
